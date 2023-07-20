@@ -12,6 +12,8 @@
 .places h2 {
     font-size: 30px;
     text-align: center;
+    margin-left: 110px;
+    position: absolute;;
 }
 .places article {
     width: 390px;
@@ -20,6 +22,8 @@
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 .places .price_by_night {
     color: #FF5A5F;
